@@ -34,7 +34,7 @@ export const Support = () => {
     <Theme>
       <S.Container>
         <h2> Seja bem-vindo(a) ao Form App, {state.name}</h2>
-        <p>Seus dados estão guardados, clique em "próximo" para ver quem esteve aqui 😁</p>
+        <p>Seus dados estão guardados, clique em "próximo" para visualizar 😁</p>
         <Link to="/" className="back">Voltar</Link>
         <button onClick={handleNext}>
           Próximo
